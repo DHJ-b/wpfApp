@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Box2D.NetStandard/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Box2D.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Box2D.NetStandard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Box2D.NetStandard/1.0.4": {
+      "sha512": "XDVhUWuMUO0w0ZSKXhDCs63OUceGBitUsiYxeIL2Frq8pDu6l1YrfUdRSlY1XpWeZcMOTfxh8VL/ASRzCAtSKw==",
+      "type": "package",
+      "path": "box2d.netstandard/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "box2d.netstandard.1.0.4.nupkg.sha512",
+        "box2d.netstandard.nuspec",
+        "lib/netstandard2.1/Box2D.NetStandard.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Box2D.NetStandard >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ольга\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Wpf2\\Wpf2.csproj",
+      "projectName": "Wpf2",
+      "projectPath": "C:\\Wpf2\\Wpf2.csproj",
+      "packagesPath": "C:\\Users\\Ольга\\.nuget\\packages\\",
+      "outputPath": "C:\\Wpf2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ольга\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Box2D.NetStandard": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

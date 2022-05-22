@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HR4fNbIMQLtC+HGhr9NHpE6xB5hJAJJEdKV7sJk9E3Fp808gu9swifyWP+dIvClxC42Kb/ox5D1mZeYPhA0E3A==",
+  "success": true,
+  "projectFilePath": "C:\\Wpf2\\Wpf2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ольга\\.nuget\\packages\\box2d.netstandard\\1.0.4\\box2d.netstandard.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

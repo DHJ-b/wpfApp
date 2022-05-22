@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Wpf2/1.0.0": {
+        "dependencies": {
+          "Box2D.NetStandard": "1.0.4"
+        },
+        "runtime": {
+          "Wpf2.dll": {}
+        }
+      },
+      "Box2D.NetStandard/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.1/Box2D.NetStandard.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wpf2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Box2D.NetStandard/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XDVhUWuMUO0w0ZSKXhDCs63OUceGBitUsiYxeIL2Frq8pDu6l1YrfUdRSlY1XpWeZcMOTfxh8VL/ASRzCAtSKw==",
+      "path": "box2d.netstandard/1.0.4",
+      "hashPath": "box2d.netstandard.1.0.4.nupkg.sha512"
+    }
+  }
+}
