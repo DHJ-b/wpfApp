@@ -2,7 +2,7 @@
   "profiles": {
     "Wpf2": {
       "commandName": "Project",
-      "workingDirectory": "D:\\src\\Wpf2"
+      "workingDirectory": "$(SolutionDir)"
     }
   }
 }

@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\валера\\.nuget\\packages\\": {},
+    "D:\\vsc\\shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "2.4.6-alpha",
+    "restore": {
+      "projectUniqueName": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
+      "projectName": "Box2D.NetStandard",
+      "projectPath": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
+      "packagesPath": "C:\\Users\\валера\\.nuget\\packages\\",
+      "outputPath": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\vsc\\shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\валера\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

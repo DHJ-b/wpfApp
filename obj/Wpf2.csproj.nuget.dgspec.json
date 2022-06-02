@@ -4,14 +4,14 @@
     "D:\\src\\Wpf2\\Wpf2.csproj": {}
   },
   "projects": {
-    "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
+    "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
       "version": "2.4.6-alpha",
       "restore": {
-        "projectUniqueName": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
+        "projectUniqueName": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
         "projectName": "Box2D.NetStandard",
-        "projectPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
+        "projectPath": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
         "packagesPath": "C:\\Users\\валера\\.nuget\\packages\\",
-        "outputPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\obj\\",
+        "outputPath": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vsc\\shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
-                "projectPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj"
+              "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
+                "projectPath": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj"
               }
             }
           }

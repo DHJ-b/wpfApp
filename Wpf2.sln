@@ -5,12 +5,12 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf2", "Wpf2.csproj", "{B1D49177-D719-41FF-8C63-90E5368FB177}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Box2D.NetStandard", "..\..\B2D\box2d-netstandard-2.4\src\box2dx\Box2D.NetStandard\Box2D.NetStandard.csproj", "{A4039494-B70F-463F-A1F4-C57628CD0E5D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{A9012FBE-F741-4D5C-9C00-EC758F95072E}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Box2D.NetStandard", "dependency\Box2D.NetStandard\Box2D.NetStandard.csproj", "{54C5CB03-619D-4E01-8010-2A3C41434969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{B1D49177-D719-41FF-8C63-90E5368FB177}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D49177-D719-41FF-8C63-90E5368FB177}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D49177-D719-41FF-8C63-90E5368FB177}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4039494-B70F-463F-A1F4-C57628CD0E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4039494-B70F-463F-A1F4-C57628CD0E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4039494-B70F-463F-A1F4-C57628CD0E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4039494-B70F-463F-A1F4-C57628CD0E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C5CB03-619D-4E01-8010-2A3C41434969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C5CB03-619D-4E01-8010-2A3C41434969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C5CB03-619D-4E01-8010-2A3C41434969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C5CB03-619D-4E01-8010-2A3C41434969}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

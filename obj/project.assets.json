@@ -17,8 +17,8 @@
   "libraries": {
     "Box2D.NetStandard/2.4.6-alpha": {
       "type": "project",
-      "path": "../../B2D/box2d-netstandard-2.4/src/box2dx/Box2D.NetStandard/Box2D.NetStandard.csproj",
-      "msbuildProject": "../../B2D/box2d-netstandard-2.4/src/box2dx/Box2D.NetStandard/Box2D.NetStandard.csproj"
+      "path": "dependency/Box2D.NetStandard/Box2D.NetStandard.csproj",
+      "msbuildProject": "dependency/Box2D.NetStandard/Box2D.NetStandard.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -58,8 +58,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
-              "projectPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj"
+            "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
+              "projectPath": "D:\\src\\Wpf2\\dependency\\Box2D.NetStandard\\Box2D.NetStandard.csproj"
             }
           }
         }
