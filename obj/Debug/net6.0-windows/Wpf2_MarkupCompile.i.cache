@@ -4,16 +4,16 @@
 exe
 C#
 .cs
-C:\Wpf2\obj\Debug\net6.0-windows\
+D:\src\Wpf2\obj\Debug\net6.0-windows\
 Wpf2
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Wpf2\App.xaml
+
 11407045341
 
-576724409
-195983568101
+5-381848435
+195-2111045794
 MainWindow.xaml;
 
 True

@@ -1,20 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Wpf2\\Wpf2.csproj": {}
+    "D:\\src\\Wpf2\\Wpf2.csproj": {}
   },
   "projects": {
-    "C:\\Wpf2\\Wpf2.csproj": {
+    "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
+      "version": "2.4.6-alpha",
+      "restore": {
+        "projectUniqueName": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
+        "projectName": "Box2D.NetStandard",
+        "projectPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj",
+        "packagesPath": "C:\\Users\\валера\\.nuget\\packages\\",
+        "outputPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\vsc\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\валера\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\src\\Wpf2\\Wpf2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Wpf2\\Wpf2.csproj",
+        "projectUniqueName": "D:\\src\\Wpf2\\Wpf2.csproj",
         "projectName": "Wpf2",
-        "projectPath": "C:\\Wpf2\\Wpf2.csproj",
-        "packagesPath": "C:\\Users\\Ольга\\.nuget\\packages\\",
-        "outputPath": "C:\\Wpf2\\obj\\",
+        "projectPath": "D:\\src\\Wpf2\\Wpf2.csproj",
+        "packagesPath": "C:\\Users\\валера\\.nuget\\packages\\",
+        "outputPath": "D:\\src\\Wpf2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\vsc\\shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ольга\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\валера\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +89,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj": {
+                "projectPath": "D:\\B2D\\box2d-netstandard-2.4\\src\\box2dx\\Box2D.NetStandard\\Box2D.NetStandard.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,12 +105,6 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "dependencies": {
-            "Box2D.NetStandard": {
-              "target": "Package",
-              "version": "[1.0.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +123,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
