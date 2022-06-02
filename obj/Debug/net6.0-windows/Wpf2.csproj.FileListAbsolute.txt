@@ -27,6 +27,7 @@ D:\src\Wpf2\bin\Debug\net6.0-windows\Wpf2.runtimeconfig.json
 D:\src\Wpf2\bin\Debug\net6.0-windows\Wpf2.dll
 D:\src\Wpf2\bin\Debug\net6.0-windows\Wpf2.pdb
 D:\src\Wpf2\bin\Debug\net6.0-windows\Box2D.NetStandard.dll
+D:\src\Wpf2\bin\Debug\net6.0-windows\Box2D.NetStandard.pdb
 D:\src\Wpf2\obj\Debug\net6.0-windows\Wpf2.csproj.AssemblyReference.cache
 D:\src\Wpf2\obj\Debug\net6.0-windows\Wpf2.GeneratedMSBuildEditorConfig.editorconfig
 D:\src\Wpf2\obj\Debug\net6.0-windows\Wpf2.AssemblyInfoInputs.cache
@@ -38,4 +39,3 @@ D:\src\Wpf2\obj\Debug\net6.0-windows\refint\Wpf2.dll
 D:\src\Wpf2\obj\Debug\net6.0-windows\Wpf2.pdb
 D:\src\Wpf2\obj\Debug\net6.0-windows\Wpf2.genruntimeconfig.cache
 D:\src\Wpf2\obj\Debug\net6.0-windows\ref\Wpf2.dll
-D:\src\Wpf2\bin\Debug\net6.0-windows\Box2D.NetStandard.pdb
