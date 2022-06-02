@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf2", "Wpf2.csproj", "{B1D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Box2D.NetStandard", "..\..\B2D\box2d-netstandard-2.4\src\box2dx\Box2D.NetStandard\Box2D.NetStandard.csproj", "{A4039494-B70F-463F-A1F4-C57628CD0E5D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{A9012FBE-F741-4D5C-9C00-EC758F95072E}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
